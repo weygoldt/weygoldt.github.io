@@ -1,0 +1,29 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Patrick Weygoldt"
+# logo = "img/logo.png"
+description = "My personal website"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "2 January 2006"
+
+[author]
+  name = "Patrick Weygoldt"
+  image = "img/portrait.png"
+  headline = "M.Sc. student in Neuro- & Evolutionary Biology"
+  bio = """
+    I study Neuroscience and Evolutionary Ecology
+    with an emphasis on animal behavior. Currently, I am
+    interested in spatial interactions and communication,
+    which I study in weakly electric fish."""
+   links = [
+     { github = "https://github.com/weygoldt" },
+     { twitter = "https://twitter.com/weygoldtp" },
+     { instagram = "https://www.instagram.com/weygoldtphoto" },
+     { email = "mailto:patrick.weygoldt@student.uni-tuebingen.de" }
+   ]
