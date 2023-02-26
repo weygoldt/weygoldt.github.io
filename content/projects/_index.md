@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2023-02-25T22:40:17+01:00
-draft: true
+draft: false
 heroStyle: "background"
 layoutBackgroundBlur: true
 ---
