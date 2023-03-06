@@ -4,4 +4,4 @@ description: "This is a demo of the Blowfish theme for Hugo."
 ---
 
 Hi and welcome to my personal website. This site is currently being build and most
-of what you see is just blind text or drafts.
+of what you see is just blind text or drafts. This is a test.
