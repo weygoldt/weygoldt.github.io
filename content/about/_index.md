@@ -6,6 +6,7 @@ heroStyle: "background"
 layoutBackgroundBlur: true
 ---
 
+<img src="portrait.png" align="left" width="200px" style="margin:0px 20px"/>
 :wave: **Hi, nice to meet you!**
 I am currently a masters student in the programs Neurobiology and Evolution &
 Ecology at the University of Tuebingen in Germany. I am passionate about 
@@ -13,6 +14,7 @@ new, integrative and quantitative approaches in the study of animal behaviours,
 which includes e.g. multi-animal tracking and all things computational. In my spare
 time, I try to learn the GNU/Linux operating system or go on photography or scuba-diving 
 trips.
+<br clear="right"/>
 
 ## Education
 {{< timeline >}}
@@ -38,8 +40,8 @@ and communication behaviors of multiple individuals simultaneously.
 Ever since childhood, I've been fascinated by photography and pursue this
 interest until today. Before starting with my studies, you would find me perched
 in a camouflaged tent photographing birds or on mountain-tops at sunrise.
-<br clear="left"/>
 You can find a selection of my creative work [here](https://instagram.com/weygoldtphoto).
+<br clear="left"/>
 
 #### :diving_mask: Scuba diving
 During my studies working on visual ecology in marine fish, I also picked up
