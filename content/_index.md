@@ -1,7 +1,8 @@
 ---
-title: "Welcome to Blowfish! :tada:"
-description: "This is a demo of the Blowfish theme for Hugo."
+title: "Welcome"
+description: "A brief introduction to the website"
 ---
 
-Hi and welcome to my personal website. This site is currently being build and most
-of what you see is just blind text or drafts. This is a test.
+:wave: Hi, I'm Patrick! I am passionate about the study of animal behavior, 
+data science, Linux and open source software. Learn more [here](./about).
+Welcome to my academic & personal website.
