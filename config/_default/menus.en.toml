@@ -11,17 +11,29 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "About me"
+  name = "About"
   pageRef = "about"
   weight = 10
 
 [[main]]
-  name = "Research"
+  name = "Work"
   pageRef = "projects"
   weight = 20
 
 [[main]]
-  name = "Creative work"
+  name = "Electrocommunication"
+  parent = "Work"
+  pageRef = "projects"
+  weight = 21
+
+[[main]]
+  name = "Active photolocation"
+  parent = "Work"
+  pageRef = "projects"
+  weight = 22
+
+[[main]]
+  name = "Play"
   pageRef = "photos"
   weight = 30
 

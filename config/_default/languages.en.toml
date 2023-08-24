@@ -18,9 +18,8 @@ dateFormat = "2 January 2006"
   headline = "M.Sc. student in Neuro- & Evolutionary Biology"
   bio = """
     I study Neuroscience and Evolutionary Ecology
-    with an emphasis on animal behavior. Currently, I am
-    interested in spatial interactions and communication,
-    which I study in weakly electric fish."""
+    with an emphasis on animal behavior and data science. Currently, I am
+    interested in spatial interactions and communication in weakly electric fish."""
    links = [
      { github = "https://github.com/weygoldt" },
      { twitter = "https://twitter.com/weygoldtp" },

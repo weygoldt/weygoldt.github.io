@@ -3,11 +3,11 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://your_domain.com/"
+baseURL = "https://weygoldt.com/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 20
+paginate = 100
 summaryLength = 30
 
 buildDrafts = false
