@@ -8,6 +8,8 @@ layoutBackgroundBlur: true
 
 This is a small collection of university and research projects I particularly enjoyed working on. I hope you find them interesting!
 
+<br/><br/>
+
 ## Detecting communication signals of weakly electric fish
 
 To understand the meaning of certain communication signals, we need to be able to detect them. With chirps, a transient frequency modulation of the electric organ discharge, this is particularly challenging. In most of the research to date, fish where immobilized and stimulated artifically or kept physically seperated, conditions not particularly advantageous for natural communication. 

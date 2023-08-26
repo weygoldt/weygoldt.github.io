@@ -8,6 +8,8 @@ layoutBackgroundBlur: true
 
 This is a small selection of projects and activities that I currently pursue in my free time. I hope you find them interesting!
 
+<br/><br/>
+
 ## Linux and open source software
 
 I am a huge fan of Linux and open source software. I got into Linux when I started working in the Neuroethology lab at the University of Tuebingen, where everybody was using it. I was immediately hooked by the idea of a free and open operating system that is not only highly customizable but also very secure. I have been using Linux as my main operating system for approximately 2 years. I am currently running [Arch Linux](https://archlinux.org/) with the [Hyprland window manager](https://hyprland.org/) on both my personal laptop and work PC. I keep a [dotfiles repository](github.com/weygoldt/dotfiles) on GitHub where I store my configuration files and scripts.
