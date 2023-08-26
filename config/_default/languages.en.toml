@@ -7,22 +7,22 @@ rtl = false
 
 title = "Patrick Weygoldt"
 # logo = "img/logo.png"
-description = "My personal website"
+# description = "My personal website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
 
 [author]
   name = "Patrick Weygoldt"
-  image = "img/portrait.png"
-  headline = "M.Sc. student in Neuro- & Evolutionary Biology"
+  image = "img/portrait.jpg"
+  headline = "Animal Behavior & Data Science"
   bio = """
-    I study Neuroscience and Evolutionary Ecology
-    with an emphasis on animal behavior and data science. Currently, I am
-    interested in spatial interactions and communication in weakly electric fish."""
-   links = [
-     { github = "https://github.com/weygoldt" },
-     { twitter = "https://twitter.com/weygoldtp" },
-     { instagram = "https://www.instagram.com/weygoldtphoto" },
-     { email = "mailto:patrick.weygoldt@student.uni-tuebingen.de" }
-   ]
+    I study Neuroscience and Evolutionary Ecology with an emphasis on animal behavior 
+    and data science. Currently, I am interested electrocommunication and social 
+    interactions in weakly electric fish."""
+#   links = [
+#     { github = "https://github.com/weygoldt" },
+#     { twitter = "https://twitter.com/weygoldtp" },
+#     { instagram = "https://www.instagram.com/weygoldtphoto" },
+#     { email = "mailto:patrick.weygoldt@student.uni-tuebingen.de" }
+#  ]

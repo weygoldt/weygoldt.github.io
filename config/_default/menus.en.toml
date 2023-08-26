@@ -38,27 +38,48 @@
   weight = 30
 
 [[main]]
-  name = "Blog"
+  name = "SCUBA diving"
+  parent = "Play"
+  pageRef = "photos"
+  weight = 35
+
+[[main]]
+  name = "Photography"
+  parent = "Play"
+  pageRef = "photos"
+  weight = 36
+
+[[main]]
+  name = "Posts"
   pageRef = "posts"
   weight = 40
 
-# [[main]]
-#   identifier = "github"
-#   pre = "github"
-#   url = "https://github.com/weygoldt"
-#   weight = 50
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/weygoldt"
+  weight = 50
 
-# [[main]]
-#   identifier = "twitter"
-#   pre = "twitter"
-#   url = "https://twitter.com/weygoldtp"
-#   weight = 60
+[[main]]
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://www.instagram.com/weygoldtphoto/"
+  weight = 55
 
-# [[main]]
-#   identifier = "instagram"
-#   pre = "instagram"
-#   url = "https://www.instagram.com/weygoldtphoto/"
-#   weight = 70
+[[main]]
+  identifier = "email"
+  pre = "email"
+  url = "mailto:patrick.weygoldt@student.uni-tuebingen.de"
+  weight = 60
+
+[[main]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://twitter.com/weygoldtp"
+  weight = 65
+
+
+
 
 
 # -- Footer Menu --

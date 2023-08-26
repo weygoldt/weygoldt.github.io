@@ -2,8 +2,8 @@
 title: "PlatformIO - Lazy hardware development from the command line."
 summary: "An introduction to PlatformIO, an open-source tool that makes software development for microcontroller prototyping platforms more convenient."
 showSummary: true
-categories: ["Post", "Blog"]
-tags: ["arduino", "teensy", "harware", "software", "terminal", "linux"]
+categories: ["Post"]
+tags: ["arduino","hardware","linux"]
 date: 2023-05-01T14:51:09+02:00
 draft: false
 ---
