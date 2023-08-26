@@ -17,37 +17,13 @@
 
 [[main]]
   name = "Work"
-  pageRef = "projects"
+  pageRef = "work"
   weight = 20
 
 [[main]]
-  name = "Electrocommunication"
-  parent = "Work"
-  pageRef = "projects"
-  weight = 21
-
-[[main]]
-  name = "Active photolocation"
-  parent = "Work"
-  pageRef = "projects"
-  weight = 22
-
-[[main]]
   name = "Play"
-  pageRef = "photos"
+  pageRef = "play"
   weight = 30
-
-[[main]]
-  name = "SCUBA diving"
-  parent = "Play"
-  pageRef = "photos"
-  weight = 35
-
-[[main]]
-  name = "Photography"
-  parent = "Play"
-  pageRef = "photos"
-  weight = 36
 
 [[main]]
   name = "Posts"
