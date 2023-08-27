@@ -8,7 +8,7 @@ layoutBackgroundBlur: true
 
 This is a small selection of projects and activities that I currently pursue in my free time. I hope you find them interesting!
 
-<br/><br/>
+<br/>
 
 ## Linux and open source software
 
@@ -16,15 +16,23 @@ I am a huge fan of Linux and open source software. I got into Linux when I start
 
 {{< github repo="weygoldt/dotfiles" >}}
 
-<br/><br/>
+<br/>
 
 ## Scuba diving
 
-I am a certified [PADI](https://www.padi.com/) Advanced Open Water Diver. I started diving after my starting to work in a marine biology lab and have been diving in Germany, Indonesia and the Mediterranean Sea. I am really excited to further my education as a diver, a skill that I'm sure will come in handy for my future research. I am particulary drawn towards the idea of becoming a technical- and cave diver to be able to explore challenging environments. In 2023 I got a first chance to combine this skill with my work during a four-week stay at the [STARESO marine research station](http://stareso.com/) where I assisted PhD-students during data collection dives. 
+I am a certified [PADI](https://www.padi.com/) Advanced Open Water Diver. I started diving after my starting to work in a marine biology lab and have been diving in Germany, Indonesia and the Mediterranean Sea. I am really excited to further my education as a diver, a skill that I'm sure will come in handy for my future research. I am particulary drawn towards the idea of becoming a technical- and cave diver to be able to explore challenging environments. In 2023 I got a first chance to combine this skill with my work during a four-week stay at the [STARESO marine research station](http://stareso.com/) where I assisted PhD-students during sample collection dives. 
 
 ![A picture of me diving](dive.jpg "Scorpion fish catching in the Mediterranean sea. Photo courtesy of Lena Wesenberg")
 
 To plan and log my dives, I use [Subsurface](https://subsurface-divelog.org/), an open source dive log software written by no other than the creator of the Linux kernel, Linus Thorvalds. 
 
-<br/><br/>
+<br/>
+
+## Hiking, photography and everything outdoors
+
+Before I started my studies I spent my weekends with photography trips, mostly hiking in the mountains. Nowadays, I don't have as much time for photography as I used to, but I still enjoy hiking, even if I rarely take my camera. The image below is one of my favorite pictures from that time, a self-portrait taken on a bivouac in the Alps.
+
+![A picture of the mountains and the milky way](stars.jpg "A self-portrait taken on a bivouac in the alps close to the Grimsel pass in Switzerland.")
+
+<br/>
 
