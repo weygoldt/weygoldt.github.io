@@ -66,9 +66,10 @@
   <meta property="og:title" content="Hardware and software development" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://weygoldt.com/development/" />
+<meta property="og:url" content="https://weygoldt.com/development/" /><meta property="og:image" content="https://weygoldt.com/development/cover.jpg"/>
 
-  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://weygoldt.com/development/cover.jpg"/>
 <meta name="twitter:title" content="Hardware and software development"/>
 <meta name="twitter:description" content=""/>
 
@@ -622,7 +623,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/bg_hu2e7046ff9c52a4b239aa933b3a0d2bac_9659815_1200x0_resize_q75_box.jpg);">
+    style="background-image:url(/development/cover_hu46d66a11f62c5d0e10b8db4713fcbb8b_6042136_1200x0_resize_q75_box.jpg);">
     
 
 
@@ -709,10 +710,158 @@
   
   <script type="text/javascript" src="/js/page.min.0e49973b4ad0a382c7c6012d8bff8226316642daabc4f8a20477bd08674f3da6e2fa993bc20ad4f51e7c5bb68e6f913a207a7c4fe37ea0e7b806894afce0a64e.js" integrity="sha512-DkmXO0rQo4LHxgEti/&#43;CJjFmQtqrxPiiBHe9CGdPPabi&#43;pk7wgrU9R58W7aOb5E6IHp8T&#43;N&#43;oOe4BolK/OCmTg=="></script>
   </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+  <section class="mt-12 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    
+    <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky lg:top-[140px]">
+        <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#submersible-data-loggers-to-record-the-electric-organ-discharge-of-weakly-electric-fish">Submersible data loggers to record the electric organ discharge of weakly electric fish</a></li>
+    <li><a href="#gridtoolshttpsweygoldtcomgridtools-a-python-package-to-analyze-electrode-grid-data"><a href="https://weygoldt.com/gridtools">Gridtools</a>: A python package to analyze electrode grid data</a></li>
+    <li><a href="#chirpdetectorhttpsweygoldtcomchirpdetector-a-python-package-to-detect-and-analyze-brief-communication-signals-of-weakly-electric-fish"><a href="https://weygoldt.com/chirpdetector">Chirpdetector</a>: A python package to detect and analyze brief communication signals of weakly electric fish</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#submersible-data-loggers-to-record-the-electric-organ-discharge-of-weakly-electric-fish">Submersible data loggers to record the electric organ discharge of weakly electric fish</a></li>
+    <li><a href="#gridtoolshttpsweygoldtcomgridtools-a-python-package-to-analyze-electrode-grid-data"><a href="https://weygoldt.com/gridtools">Gridtools</a>: A python package to analyze electrode grid data</a></li>
+    <li><a href="#chirpdetectorhttpsweygoldtcomchirpdetector-a-python-package-to-detect-and-analyze-brief-communication-signals-of-weakly-electric-fish"><a href="https://weygoldt.com/chirpdetector">Chirpdetector</a>: A python package to detect and analyze brief communication signals of weakly electric fish</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+
+      </div>
+    </div>
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      <p>This is work in progress, please check again at a later time.</p>
+      <p>To be able to record and analyze the data I need for my research, I contribute in the development of hardware and software projects.
+The following list gives an overview of the projects I am currently working on.</p>
+<div id="submersible-data-loggers-to-record-the-electric-organ-discharge-of-weakly-electric-fish" class="anchor"></div>
+<h2 class="relative group">Submersible data loggers to record the electric organ discharge of weakly electric fish 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#submersible-data-loggers-to-record-the-electric-organ-discharge-of-weakly-electric-fish" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /development/logger_hu29cdfe53808d082dc6f325e10731408f_5082799_330x0_resize_q75_box.jpg 330w,
+        /development/logger_hu29cdfe53808d082dc6f325e10731408f_5082799_660x0_resize_q75_box.jpg 660w,
+        /development/logger_hu29cdfe53808d082dc6f325e10731408f_5082799_1024x0_resize_q75_box.jpg 1024w,
+        /development/logger_hu29cdfe53808d082dc6f325e10731408f_5082799_1320x0_resize_q75_box.jpg 2x"
+        src="/development/logger_hu29cdfe53808d082dc6f325e10731408f_5082799_660x0_resize_q75_box.jpg"
+        alt="Data logger"
+      />
+      
+      <figcaption>A submersible data logger to record the electric organ discharge of weakly electric fish in the field.</figcaption>
+    </figure>
+  
+
+</p>
+<p>My main interest lies in recording natural behavior of weakly electric fish using electrode grids. But developing this system has led to multiple interesting side projects that I am currently contributing on.</p>
+<ul>
+<li>
+<p>Submersible data logger for logging electric activity across larger areas and time periods</p>
+</li>
+<li>
+<p><a href="https://github.com/janscience/FishFinder/tree/main/R42-fishrecorder"   target="_blank">
+    Submersible data loggers for SCUBA divers</a>: Can be carried by scuba divers to record electric activity at depth. It is also equipped with an LED to be able to synchronize the electric activity with video recordings.</p>
+</li>
+</ul>
+<div id="gridtoolshttpsweygoldtcomgridtools-a-python-package-to-analyze-electrode-grid-data" class="anchor"></div>
+<h2 class="relative group"><a href="https://weygoldt.com/gridtools"   target="_blank">
+    Gridtools</a>: A python package to analyze electrode grid data 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#gridtoolshttpsweygoldtcomgridtools-a-python-package-to-analyze-electrode-grid-data" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>In the current data pipeline, recordings fish frequencies are tracked using the <a href="https://github.com/tillraab/wavetracker"   target="_blank">
+    <code>wavetracker</code></a>, which results in a quite complicated data structure. To simplify the analysis of the data, I developed a Pydantic data model that can be used to easily access the data. The package also includes functions to analyze, visualize, preprocess and export the data. I am also working on a simulation module that is capable of simulating a whole electrode grid recording, including multiple, moving fish that communicate with each other.</p>
+<div id="chirpdetectorhttpsweygoldtcomchirpdetector-a-python-package-to-detect-and-analyze-brief-communication-signals-of-weakly-electric-fish" class="anchor"></div>
+<h2 class="relative group"><a href="https://weygoldt.com/chirpdetector"   target="_blank">
+    Chirpdetector</a>: A python package to detect and analyze brief communication signals of weakly electric fish 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chirpdetectorhttpsweygoldtcomchirpdetector-a-python-package-to-detect-and-analyze-brief-communication-signals-of-weakly-electric-fish" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Chirps are one of the two main ways of communication in wave-type weakly electric fish. Chirps are modulations of the electric organ discharge frequency that last between 20 ms and 200 ms. This makes detection of chirps hard, when multiple fish are present in the same recording. The only way is using a spectrogram with a high temporal resolution. The <code>chirpdetector</code> tackles this challenge and uses a faster-RCNN to detect chirps in spectrograms. This will allow to analyze the communication behavior of freely behaving fish in their natural habitat quantitatively for the first time, which is the main goal of my master&rsquo;s thesis.</p>
 
     </div>
    
