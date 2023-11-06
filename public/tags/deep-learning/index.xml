@@ -10,10 +10,10 @@
     <lastBuildDate>Mon, 06 Nov 2023 17:02:30 +0100</lastBuildDate><atom:link href="https://weygoldt.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My tech stack for data science with Python in 2023</title>
-      <link>https://weygoldt.com/posts/datascience-stack/techstack/</link>
+      <link>https://weygoldt.com/posts/datascience-stack/</link>
       <pubDate>Mon, 06 Nov 2023 17:02:30 +0100</pubDate>
       
-      <guid>https://weygoldt.com/posts/datascience-stack/techstack/</guid>
+      <guid>https://weygoldt.com/posts/datascience-stack/</guid>
       <description>A collection of tools that I use for data science with Python</description>
       
     </item>

@@ -1,5 +1,5 @@
 ---
-title: "Software"
+title: "Hardware and software development"
 date: 2023-11-06T17:04:49+01:00
 draft: false
 heroStyle: "background"
