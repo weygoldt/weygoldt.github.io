@@ -3,6 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+      <url>
+            <loc>https://weygoldt.com/software/</loc>
+            <lastmod>2023-11-06T17:04:49+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://weygoldt.com/</loc>
+            <lastmod>2023-11-06T17:04:49+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
   
     
   
@@ -21,15 +39,6 @@
   
     
   
-    
-  
-    
-      <url>
-            <loc>https://weygoldt.com/</loc>
-            <lastmod>2023-05-01T14:51:09+02:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
     
   
     
