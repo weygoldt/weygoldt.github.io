@@ -1,9 +1,10 @@
 ---
 title: "My tech stack for data science with Python in 2023"
-summary: ""
-categories: ["Post", "Blog"]
+summary: "A collection of tools that I use for data science with Python"
+categories: ["Post"]
 tags: ["python", "data science", "machine learning", "deep learning", "data engineering", "data visualization", "data analysis", "data science stack", ]
 date: 2023-11-06T17:02:30+01:00
+showSummary: true
 draft: false
 ---
 
@@ -19,7 +20,7 @@ Pythion is a general purpose programming language that is used for a wide variet
 
 The terminal is where I spend half of my working day. Ideally, it should be fast, functional and pretty.
 
-![Kitty terminal](assets/terminal.png)
+![A photo of the Kitty terminal](terminal.png "Kitty terminal")
 
 - [Kitty](https://sw.kovidgoyal.net/kitty/) - Kitty is a fast, featureful, GPU based terminal emulator. It is fast, has great support for unicode and is highly customizable. It is my go to terminal emulator. It is also cross platform and works on Windows, Linux and macOS. It requires a minimal amount of configuration and is easy to set up.
 

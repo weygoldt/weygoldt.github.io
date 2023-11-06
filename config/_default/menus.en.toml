@@ -21,8 +21,8 @@
   weight = 20
 
 [[main]]
-  name = "Software"
-  pageRef = "software"
+  name = "Development"
+  pageRef = "development"
   weight = 25
 
 [[main]]
