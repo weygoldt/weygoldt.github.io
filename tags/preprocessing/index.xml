@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>preprocessing on Patrick Weygoldt</title>
+    <link>https://weygoldt.com/tags/preprocessing/</link>
+    <description>Recent content in preprocessing on Patrick Weygoldt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Patrick Weygoldt</copyright>
+    <lastBuildDate>Sun, 12 Mar 2023 14:29:15 +0100</lastBuildDate><atom:link href="https://weygoldt.com/tags/preprocessing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extracting non-stationary frequency components with forward and backward Fourier transformation</title>
+      <link>https://weygoldt.com/posts/frequency_extraction/</link>
+      <pubDate>Sun, 12 Mar 2023 14:29:15 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/posts/frequency_extraction/</guid>
+      <description>One of the most flexible tools to de-noise signals based on spectral components</description>
+      
+    </item>
+    
+  </channel>
+</rss>

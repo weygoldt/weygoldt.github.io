@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Patrick Weygoldt</copyright>
-    <lastBuildDate>Mon, 06 Nov 2023 17:02:30 +0100</lastBuildDate><atom:link href="https://weygoldt.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 14:29:15 +0100</lastBuildDate><atom:link href="https://weygoldt.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My tech stack for data science with Python in 2023</title>
-      <link>https://weygoldt.com/posts/datascience-stack/techstack/</link>
-      <pubDate>Mon, 06 Nov 2023 17:02:30 +0100</pubDate>
+      <title>Extracting non-stationary frequency components with forward and backward Fourier transformation</title>
+      <link>https://weygoldt.com/posts/frequency_extraction/</link>
+      <pubDate>Sun, 12 Mar 2023 14:29:15 +0100</pubDate>
       
-      <guid>https://weygoldt.com/posts/datascience-stack/techstack/</guid>
-      <description>The python ecosystem is huge and it is growing every day. It is hard to keep up with all the new libraries and tools. In this post I will share my tech stack for data science in 2023.</description>
+      <guid>https://weygoldt.com/posts/frequency_extraction/</guid>
+      <description>One of the most flexible tools to de-noise signals based on spectral components</description>
       
     </item>
     
