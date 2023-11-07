@@ -20,7 +20,9 @@ The following image shows a short snippet of a recording of two fish. Chirps are
 
 ![A spectrogram of a recording of two fish.](chirps.png "A spectrogram of a recording of two fish. The dots indicate where the detector detected a chirp.")
 
-I am currently working on using the resulting dataset, manually annotating and correcting it to train a new detector that should perform even better on more complex recordings.
+Using this detector, we performed first, preliminary analyses of the communication behavior of two fish competing for a shelter, which suggested that chirps might be used by the loosing fish to signal submission.
+
+I am currently working on using the resulting dataset, manually annotating and correcting it to train a new detector based on a deep neural network that is taylored to detection tasks, that should perform even better on more complex recordings.
 
 {{< github repo="weygoldt/cnn-chirpdetector" >}}
 
@@ -28,7 +30,7 @@ I am currently working on using the resulting dataset, manually annotating and c
 
 ## Singing in the dark: Synchronous frequency modulations of weakly electric fish
 
-While looking through a two-week continuous recording of electric fish in their natural habitat, I noticed that some frequency modulations on the scale of seconds up two ten minutes happened in synchrony between two fish. I developed a detector that can detect these modulations and used it to analyze the recordings. 
+While looking through a two-week continuous recording of electric fish in their natural habitat, I noticed that some frequency modulations on the scale of seconds up two ten minutes happened in synchrony between two fish. I developed a covariance-based detector that can detect these modulations and used it to analyze the recordings. 
 
 Using estimated positions of the fish over time, I was able to show that fish that participate in these interactions approach each other after they initated their "choir". This work resulted in a poster presented at the 2022 international conference of Neuroethology (ICN), that you can find in the github repository below. 
 

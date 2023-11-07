@@ -9,13 +9,13 @@ layoutBackgroundBlur: true
 To be able to record and analyze the data I need for my research, I contribute in the development of hardware and software projects.
 The following list gives an overview of the projects I am currently working on.
 
-## Submersible data loggers to record the electric organ discharge of weakly electric fish
+## Submersible data loggers to record the activity of electric fish in their natural habitats
 
 ![Data logger](logger.jpg "A submersible data logger to record the electric organ discharge of weakly electric fish in the field.")
 
 My main interest lies in recording natural behavior of weakly electric fish using electrode grids. But developing this system has led to multiple interesting side projects that I am currently contributing on.
 
-- Submersible data logger for logging electric activity across larger areas and time periods
+- Submersible data logger that can be deployed in the field to record the electric organ discharge of weakly electric fish. Depending on the power supply, these loggers will able to record for multiple months and the housings are pressure rated to 100 meters depth.
 
 - [Submersible data loggers for SCUBA divers](https://github.com/janscience/FishFinder/tree/main/R42-fishrecorder): Can be carried by scuba divers to record electric activity at depth. It is also equipped with an LED to be able to synchronize the electric activity with video recordings.
 

@@ -14,8 +14,8 @@
       <pubDate>Mon, 01 May 2023 14:51:09 +0200</pubDate>
       
       <guid>https://weygoldt.com/posts/platformio-introduction/</guid>
-      <description>An introduction to PlatformIO, an open-source tool that makes software development for microcontroller prototyping platforms more convenient.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://weygoldt.com/posts/platformio-introduction/cover.jpg" />
+      <description>An introduction to PlatformIO, a tool that makes software development for microcontrollers easier.</description>
+      
     </item>
     
   </channel>

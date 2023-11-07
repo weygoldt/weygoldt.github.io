@@ -1,14 +1,14 @@
 ---
 title: "My tech stack for data science with Python in 2023"
-summary: "A collection of tools that I use for data science with Python"
+summary: "A collection of libaries and tools that I use to analyze data with Python"
 categories: ["Post"]
 tags: ["python", "data science", "machine learning", "deep learning", "data engineering", "data visualization", "data analysis", "data science stack", ]
 date: 2023-11-06T17:02:30+01:00
-showSummary: true
+# showSummary: true
 draft: false
 ---
 
-The Python ecosystem is huge and it is growing every day. It is hard to keep up with all the new libraries and tools. In this post I will share my tech stack for data science in 2023. I will update this post every year to document my plunge into this never ending rabbit hole. 
+###### The Python ecosystem is huge and it is growing every day. It is hard to keep up with all the new libraries and tools. In this post I will share my tech stack for data science in 2023. I will update this post every year to document my plunge into this never ending rabbit hole. 
 
 Disclaimer: Everything below is my opinion. If I get something wrong, please let me know. I don't use all of these tools in every project and I don't list all tools that I use here. I am merely providing a list of tools that I particularly enjoy using and that I think are worth checking out as I am writing this post.
 
