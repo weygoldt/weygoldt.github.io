@@ -1,18 +1,20 @@
 ---
-title: "Notes on a field trip to Amapa, Brazil in 2023"
+title: "Adventures in the Amazon: Exploring Electric Fish in the Rainforest, Brazil 2023"
 summary: "A small report on a field trip to the Amazonian Rainforest in Amapa, Brazil in 2023"
 # showSummary: true
 categories: ["Post"]
 tags: ["rainforest", "amapa", "brazil", "field trip", "science", "efish", "research", "2023"]
 date: 2023-11-07T12:43:20+01:00
-draft: true
+draft: false
 ---
 
-Recently, I was lucky enough to join [Jan Benda](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/biologie/institute/neurobiologie/lehrbereiche/neuroethologie/) on a research expedition to study the fascinating world of electric fish in the Amazonian Rainforest. 
+Recently, I had the privilege of joining [Jan Benda](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/biologie/institute/neurobiologie/lehrbereiche/neuroethologie/) on a remarkable research expedition to delve into the captivating realm of electric fish in the Amazonian Rainforest.
 
-Over the course of nine days at a remote field station, I encountered the challenges and wonders of this unique ecosystem, all in the pursuit of understanding these enigmatic aquatic creatures.
+Over the course of nine days at a remote field station, I was immersed in the challenges and wonders of this unique ecosystem, all in pursuit of unraveling the mysteries of these enigmatic aquatic creatures.
 
-The following is a small report on my experience.
+## A Pictorial Journey
+
+Let's start with some visuals to set the scene:
 
 {{< gallery >}}
   <img src="misc/01.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
@@ -21,47 +23,72 @@ The following is a small report on my experience.
   <img src="misc/04.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
   <img src="misc/05.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
   <img src="misc/06.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
+  <img src="misc/07.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
+  <img src="misc/08.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
+  <img src="misc/09.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
 {{< /gallery >}}
 
+## Why Electric Fish?
 
-## Why electric fish?
+In the vast expanse of the Neotropics, electric fish are ubiquitous. While most people have heard of the electric eel, there are numerous lesser-known species that are small, nocturnal, and rarely observed without specialized equipment. These 'weakly' electric fish utilize their electric organs for communication, navigation, and hunting in the Amazonian Rainforest waters. While they serve as a popular model in Neurophysiology, their ecological roles, natural behaviors, and communication methods remain largely enigmatic. This is where our journey begins.
 
-Looking at the Neotropics, electric fish are everywhere. Everybody knows about the electric eel, but there are many more species that are small, nocturnal and rarely obreved without the use of specialized equipment. These, 'just' weakly electric fish use their electric organ to communicate, navigate and hunt in the waters of the Amazonian Rainforest. Yes, they are a very popular model in Neurophysiology, but their ecology, natural behavior and communication are still poorly understood. And that's where we come in.
+![Image of a pulse-type weakly electric fish](gymnorhamphichthys.jpg "Gymnorhamphichthys, a pulse-type weakly electric fish that inhabits the sand banks of Amazonian rivers.")
 
-![Image of a pulse-type weakly electric fish](gymnorhamphichthys.jpg "Gymnorhamphichthys, a pulse-type weakly electric fish that lives in sand banks in the rivers of the Amazonian Rainforest.")
+## The Research Objective
 
-## The research objective
+Wave-type electric fish, comprising many species, are unique in that they constantly emit an electric field. We can measure this field using electrodes and amplifiers. Moreover, the field of each fish oscillates at a unique frequency, allowing us to distinguish them. Our aim is to take this a step further: employing electrode grids to measure the electric field on a plane and reconstruct the movements, communication, and even the mating behaviors of multiple individuals in their natural habitat. While similar work has been done [before](https://www.jneurosci.org/content/38/24/5456.short), we aim to (1) enhance the resolution from the previous 64 to 256 electrodes and (2) make the system portable, modular, and robust. During this field trip, we tested the first prototype of this system.
 
-Wave-type electric fish, with more that 100 species, are unique in that the signal they produce is always on. This means that they are constantly emitting an electric field and we can measure this field using electrodes and amplifiers. And since the field of each fish oscillates with a unique frequency, we can even tell them apart. But we want to take this to the next level: Using electrode grids, we can measure the electric field on plane and reconstruct movement, communication and in some species even sex of multiple individuals in their natural habitat. This is not totally new and has been done [before](https://www.jneurosci.org/content/38/24/5456.short) but we want to (1) increase the resolution from previously 64 to 256 electrodes and (2) make the system portable, modular and robust. And on this field trip, we tested the first prototype of this system.
+## The Expedition to the Field Station
 
-## The field station
+Reaching our field station was no easy feat. We embarked on a journey that took us from Frankfurt to Lisbon and then to Belem, a city in northern Brazil. From Belem, we hopped on a small plane to Macapa, the capital of the state of Amapa. From there, we were graciously driven to Porto Grande by Christoph Jaster, head of the local park administration, where we met our boatsman, Junior, who would transport us to the field station. After two hours in the car and another two hours on the river, we arrived at the southernmost tip of the FLONA do Amapa, a national park nestled within the Amazonian Rainforest.
 
-To reach the field station, we had to fly from Frankfurt to Lisbon and from there to Belem, a city in the north of Brazil. From there, we took a small plane to Macapa, the capital of the state of Amapa. From there, Christoph Jaster, head of the local park administration, was kind enough to drive us to the city of Porto Grande, where we got to meet our boatsman Junior, who would take us to the field station. And after two hours in the car and another two hours on the river, we finally arrived at the southernmost tip of the FLONA do Amapa, a national park in the Amazonian Rainforest.
+![Image of the field station](flona.jpg "The field station, a small house covered by the dense canopy of the Amazonian Rainforest.")
 
-![Image of the field station](flona.jpg "The field station, a small house covered by the dense canopy of he Amazonian Rainforest.")
+The field station itself, perched at the confluence of the Rio Falsino and the Rio Araguari, was a humble abode with a small kitchen, a bathroom, and space for hammocks. In the evenings, a generator powered the lights, and we even had satellite internet. However, most of the time, we were serenaded by the sounds of the rainforest, the chirping of birds, and the distant howling of monkeys.
 
-The field station is located on the southernmost tip of the FLONA do Amapa right where the Rio Falsino meets the Rio Araguari. It is a small house equipped with a small kitchen, a bathroom and a place to put up hammocks. For a few hours in the evenings, a generator powers the lamps and there even is satellite internet. But most of the time, we were surrounded by the sounds of the rainforest, the calls of the birds and the howling of the monkeys. 
+## A Day in the Life at the Field Station
 
-## Daily life at the field station
+Our days began with the early rising sun at around 6 AM. After a quick breakfast, the mornings were devoted to setting up, fixing, or debugging our equipment. In the afternoons, Junior would ferry us to the river for fieldwork, where we tested our recording hardware.
 
-The days started early, with the sun rising at around 5:30. After a quick breakfast, we would spend most of the mornings setting up, fixing or debugging our equipment. The afternoons were reserved for field work, where Junior would take us to the river to test our recording hardware. 
+![Image of Jan and me examining data on a riverbank](testing.jpg "Jan and me taking a first look at new data on our favorite riverbank.")
 
-![Image of Jan and me taking a first look at some data on a river bank](testing.jpg "Jan and me taking a first look at new data on our favorite river bank.")
+Navigating the river's shallows and rapids was exhilarating, especially since our visit coincided with the dry season, causing the water levels to drop noticeably. Despite the challenges, Junior skillfully guided our boat, and we never found ourselves stranded or pushing the boat through shallow waters. Maneuvering through the river's rapids proved to be an enjoyable part of our daily routine.
 
-On most days the heat during lunchtime would render us useless, so we would either retreat to our hammocks for sweaty nap or linger around in the 32°C water of the river. This would also give us the opportunity to wash our clothes in the river, which would dry in the sun within a few hours.
+![Image of me on the boat](boat.jpg "On the lookout for big rocks beneath the surface.")
 
-On most of the days, we would come back from the river with another problem to solve, so we would spend the evenings fixing and debugging our equipment again. Telma, our cook, would prepare lunch and dinner for us, which was always delicious. And after dinner, we would spend the evenings analyzing data and fixing equipment. Falling asleep in a sweaty hammock, surrounded by the sounds of the rainforest, was always a welcome relief after a long day of work.
+The sweltering midday heat often left us lethargic, prompting us to seek respite in our hammocks for a brief siesta or to cool off in the 32°C river waters. These moments also offered the opportunity to wash and dry our clothes in the sun within a few hours.
 
+Most evenings, we returned from the river with new challenges to tackle, leading us to spend the nights fixing and debugging our equipment. Telma, our cook, prepared delectable meals for us, providing much-needed relief from cooking duties. After dinner, our evenings were dedicated to data analysis and equipment maintenance. Falling asleep in our sweaty hammocks, enveloped by the sounds of the rainforest, was a welcome reprieve after a long day's work.
 
-## Equipment and data collection
+## Equipment and Data Collection
 
-- Fishfinder
-- Electrode grid
-- Loggers
+Our expedition was equipped with two main categories of hardware:
 
-## Wildlife and biodiversity
+### Fish Finders
 
-As a side effect of working in the rainforest, we got to see a lot of wildlife. We saw lots of birds, including toucans, parrots, macaws, hummingbirds and many more. We also saw lots of insects, interesting moths and butterflies, reptiles and amphibians. 
+At its simplest, a fish finder can be an audio amplifier. However, instead of plugging in a guitar or microphone, we connected our electrodes. This allowed us to audibly detect the electric organ discharges of the fish. While mere audio signals sufficed for locating the fish, Jan is in the process of developing a [Smart Fish Finder](https://github.com/janscience/fishfinder) with a screen capable of plotting fish waveforms. This advancement will enable us to discern the genus of the fish without visual confirmation.
+
+![Jan using his fish finder to record a Gymnorhamphichthys in the sand](jan_fishfinder.jpg "Jan using his fish finder to record a Gymnorhamphichthys in the sand.")
+
+### Recording Hardware
+
+Once we identified promising recording locations, we deployed our logging devices. Our goal is to create a platform of affordable, waterproof loggers constructed from readily available components. The most exciting aspect? These loggers are modular and adaptable for various recording purposes:
+
+#### Logger Configuration
+
+Each logger consists of a microcontroller, a battery, an SD card, and currently, a temperature sensor. It can receive input from up to 16 electrodes, with recording duration limited only by the SD card's capacity and battery life. In theory, they could record data for months, and deploying a network of loggers over a large area could capture migratory patterns of fish. This is the configuratino we tested the most on during our field trip.
+
+![A logger, consisting of a microcontroller, a battery, an SD card, and a temperature sensor, recording from 16 electrodes placed on the riverbed. A status LED indicates that it is recording.](logger.jpg)
+
+#### Grid Configuration
+
+Our plan is to employ these same loggers, with the addition of a cable for power, arranged side by side to form an electrode grid. With 16 electrodes, the placement of 16 loggers would result in a 256-electrode grid. This setup would enable us to record the electric field on a plane, facilitating the reconstruction of interactions and communication among multiple individuals. However, after five days of rigorous testing and debugging, we discovered that the current circuit boards introduced interference when devices were placed closely together. Thus, we will need to redesign and retest the circuit boards in the future.
+
+![A grid of loggers, captured during a round of testing and debugging.](grid.jpg)
+
+## Wildlife and Biodiversity
+
+In addition to our electric fish research, our time in the rainforest afforded us the opportunity to observe a myriad of wildlife. We encountered a variety of avian species, including toucans, parrots, macaws, hummingbirds, and more. Our journey also brought us in contact with numerous insects, captivating moths and butterflies, reptiles, and amphibians.
 
 {{< gallery >}}
   <img src="animals/01.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
@@ -72,23 +99,58 @@ As a side effect of working in the rainforest, we got to see a lot of wildlife. 
   <img src="animals/06.jpg" class="grid-w50 md:grid-w33 xl:grid-w33" />
 {{< /gallery >}}
 
-Most of the fish we saw on the other hand, where small catfish, because the electric fish we were after hide in crevices during the day. But we did see a few of them, including a few Eigenmannia at night and an Archolaemus that I managed to video tape with my phone as it was hiding between two stones. This resulted in an amusing photo of me, trying to get a good shot of the fish. 
+Most of the fish we encountered were small catfish, as the electric fish we sought tend to hide in crevices during the day. Nevertheless, we did have a few remarkable encounters, including Eigenmannia at night and an Archolaemus, which I managed to capture on video with my phone as it nestled between two rocks. This endeavor resulted in an amusing photo of me attempting to capture a good shot of the fish.
 
-![Image of me trying to get a good shot of an Archolaemus](archolaemus.jpg "Me trying to get a good shot of an Archolaemus. Next to me you can see the electrode we used to find the fish. Photo by Jan Benda.")
+![Me trying to get a good shot of an Archolaemus. Next to me, you can see the electrode we used to locate the fish. Photo by Jan Benda.](archolaemus.jpg)
 
-Getting a video made us very happy because of the elusiveness of these fish. Communicating about them whith just data points on a screen is very difficult, so having a video of them is very valuable.
+Obtaining a video was a source of great joy, given the elusive nature of these fish. Communicating about them using only data points on a screen can be challenging, so having a video was invaluable.
 
 {{< youtube id="03--x7xmb3g" title="Archolaemus" >}}
 
-We also got to see a specimen of Gymnorhamphichthys, a pulse-type weakly electric fish that buries itself in the sand on the river banks. Without our electrodes, they would be very difficult to find, but with them, we were able to locate two of them and even record a video of one of them. The noise in the background is the electric organ discharge that is translated into sound by our amplifiers.
+We also encountered a specimen of Gymnorhamphichthys, a pulse-type weakly electric fish that buries itself in the sand on riverbanks. Without our electrodes, locating them would have been exceedingly difficult, but with their help, we pinpointed two of them and even recorded a video of one. The background noise you hear is the electric organ discharge, which our amplifiers convert into sound.
 
 {{< youtube id="9TTjMNwwoo0" title="Gymnorhamphichthys" >}}
 
-But there was one electric fish that seemed to haunt us wherever we went: 
-Electrophorus, the electric eel. Our first encounter was on the first day in the field, where we looked for a small side stream of the Rio Falsino. In the mouth of that stream, just as we wanted to step out of the boat, we were greeted by four, about 1.5 long eels calmly laying in the shallow water.
+However, one electric fish appeared to shadow us wherever we ventured: Electrophorus, the electric eel. On our first day in the field, as we explored a small tributary of the Rio Falsino, we encountered four eels, each about 1.5 meters in length, serenely lounging in shallow water.
 
-## Challenges and lessons learned
+In the ensuing days, similar scenes greeted us each time we approached areas where smaller streams met the main channel. We also detected them (not visually, but via our fish finders) while working in the middle of the river. Picture standing chest-deep in the middle of a river, immersed in your work, and suddenly hearing the distinct 'toc, toc, toc' of an approaching electric eel. When we heard them on the amplifiers, we knew they were just meters away, prompting us to swiftly exit the water and wait for them to pass. We also learned that they frequently traversed the swimming area at the station, as we had recorded them there before. Over time, we stopped carrying the fish finders when we wanted to relax and cool off, leaving the door open for future underwater encounters.
 
-## Data analysis and outlook
+{{< youtube id="aH6z4S3wNvo" title="Electrophorus" >}}
+
+I must confess that I had underestimated these creatures. I once naively assumed them to be 'simple,' solitary hunters that relied on their electric organ to stun prey. However, as we were fortunate to observe, they are highly social animals, with documented instances of group hunting. I am eager to see what we can uncover about them in the future.
+
+![An electric eel passing by our recording electrodes on a tributary of the Rio Falsino.](eel.jpg "An electric eel passing by our recording electrodes on a tributary of the Rio Falsino.")
+
+## Challenges and Lessons Learned
+
+Our expedition was not without its share of challenges, some expected and others not. Yet, we garnered valuable lessons and insights from them, fueling our enthusiasm to return to the field and test our new equipment.
+
+The most significant lesson we took away was that no matter how extensively you test your equipment in the lab, field conditions will inevitably present new issues. Paradoxically, these challenges are opportunities to enhance the robustness of your equipment. Hence, this field trip was indispensable, as it exposed problems we would not have encountered in a controlled environment. We are elated to have embarked on this journey and eager to return.
+
+## Data Analysis and the Road Ahead
+
+Currently, we are just starting analyzing the data we gathered during this expedition. Our exploration is just beginning, and we are thrilled about the potential discoveries that await us. We will keep you updated on our progress. In the meantime, here are some preliminary findings:
+
+The first figure displays the pulse waveform of one of the Gymnorhamphichthys we recorded. The top panel shows the electric organ discharge recording, while the bottom panel illustrates the waveform of the pulses.
+
+![Recording and pulse waveform of a Gymnorhamphichthys in the sand.](ff1-20231003N17.Gymnorhamphichthys.png)
+
+The second figure showcases a recording from one of our loggers, revealing at least four individuals, with three in the lower frequency range, potentially Sternopygi. The fourth individual operates in the higher frequency range.
+
+![Recording of a logger where we could extract at least four individuals.](logger1-20231001T142002-thunderfish.png)
 
 ## Acknowledgements
+
+First and foremost, I would like to express my deepest gratitude to **Jan Benda** for extending the invitation to join him on this remarkable field trip. It was an invaluable opportunity to work with him and learn from his expertise.
+
+This field trip would not have been possible without the generous assistance of many individuals. The logistical challenges of such an expedition were more significant than we anticipated, and we are incredibly thankful for the support we received.
+
+- **David de Santana** played a pivotal role in connecting us with **Christoph Jaster**. Without this connection, we would have remained unaware of the existence of the FLONA do Amapa field station. We are sincerely appreciative of his contribution.
+
+- **Christoph Jaster** diligently managed the permits and logistics from Macapa to the field station. His assistance was indispensable, particularly when our equipment was lost in transit. Furthermore, his kindness was evident when he drove us to the airport at 1 AM when our departure was imminent.
+
+- Our heartfelt thanks go to **Telma**, our cook at the field station. Her delicious meals and unwavering kindness were a tremendous relief, sparing us the task of preparing our own food. We are deeply grateful for her support.
+
+- **Junior** proved to be an exceptional boatsman. Despite language barriers, he patiently ensured our safety. Communicating through gestures, a few words, and Google Translate, we not only enjoyed our time with him but also spent a memorable night under the stars in our hammocks along the Araguari River bank. We hope to have the privilege of working with him again in the future.
+
+![Group picture of the overnighter on the river bank](overnighter.jpg "Group picture of the overnighter on the river bank. From left to right: Me, Jan, and Junior.")
