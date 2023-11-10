@@ -15,7 +15,16 @@ dateFormat = "2 January 2006"
 [author]
   name = "Patrick Weygoldt"
   image = "img/portrait.jpg"
-  headline = "Animal Behavior & Data Science"
+  headline = """{{< typeit 
+  tag=h3
+  speed=50
+  breakLines=false
+  loop=true
+  >}}
+  Animal Behavior
+  Data Science
+  Deep Learning
+  {{< /typeit >}}"""
   bio = """
     I study Neuroscience and Evolutionary Ecology with an emphasis on animal behavior 
     and data science. Currently, I am interested electrocommunication and social 
