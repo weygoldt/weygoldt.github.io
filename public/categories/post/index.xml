@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Patrick Weygoldt</copyright>
-    <lastBuildDate>Tue, 07 Nov 2023 12:43:20 +0100</lastBuildDate><atom:link href="https://weygoldt.com/categories/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 15:34:03 +0100</lastBuildDate><atom:link href="https://weygoldt.com/categories/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Labeling pre-annotated images of a YOLO dataset with label-studio</title>
+      <link>https://weygoldt.com/posts/label_studio_yolo/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/posts/label_studio_yolo/</guid>
+      <description>Note: This guide was written using label-studio version 1.8.2.post1.
+With the modules included in pytorch, opencv or ultralytics, training computer vision models is easier than ever, the main constraint being the availability of labeled data.</description>
+      
+    </item>
+    
     <item>
       <title>Adventures in the Amazon: Exploring Electric Fish in the Rainforest, Brazil 2023</title>
       <link>https://weygoldt.com/posts/brasil_2023/</link>

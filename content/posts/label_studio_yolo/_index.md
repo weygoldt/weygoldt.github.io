@@ -3,20 +3,33 @@ title: "Labeling pre-annotated images of a YOLO dataset with label-studio"
 summary: ""
 #showSummary: true
 categories: ["Post"]
-tags: ["deep-learning", "label-studio", "yolo", "dataset", "supervised-learning", "datascience"]
+tags: ["deep-learning", "label-studio", "yolo", "dataset", "supervised-learning", "datascience", "computer-vision"]
 date: 2023-11-10T15:34:03+01:00
-draft: true
+draft: false
 ---
 
 *Note: This guide was written using label-studio version `1.8.2.post1`.*
 
-With the modules included in `pytorch`, `opencv` or `ultralytics`, training computer vision models is easier than ever, the main constraint being the availability of labeled data. While there are many "smart" labeling solutions, most of them are either expensive or not open source. Label-studio is unique in that it free to use, open source and even can be made "smart" by adding your own pre-labeling network for automatic labeling. But running it locally was a bit challening, which is why I will share some of my personal documentation here.
+With the modules included in `pytorch`, `opencv` or `ultralytics`, training computer vision models is easier than ever, the main constraint being the availability of labeled data. While there are many "smart" labeling solutions, most of them are either expensive or not open source. [Label-studio](https://labelstud.io/) is unique in that it free to use, open source and even can be made "smart" by adding your own pre-labeling network for automatic labeling. 
 
-[Label-studio](https://labelstud.io/) is an amazing tool for supervised deep-learning projects because it is open source, easy to use (once set up), and can be used for **many** different tasks (except sadly for instance segmentation, but for semantic segmentation).
-
-**But** setting up label-studio locally to correct pre-annotated images of my YOLO dataset that I passed through a Faster R-CNN model trained on synthetic data took me about 2 days. So I decided to write this in case I forget how I did it. And maybe it helps someone else before they waste 2 days of their life.
+**But** setting up label-studio locally to correct pre-annotated images of my YOLO dataset that I passed through a Faster R-CNN model trained on synthetic data took me about two days. So I decided to write this in case I forget how I did it. And maybe it helps someone else before they waste two days of their life.
 
 ## 1. Convert the dataset to label studio format
+
+First of all, you need a dataset in the YOLO format, which is structured like this:
+
+```python   
+dataset
+├── classes.txt
+├── images
+│   ├── image1.png
+│   ├── image2.png
+│   └── ...
+└── labels
+    ├── image1.txt
+    ├── image2.txt
+    └── ...
+```
 
 Label studio cannot directly import a YOLO dataset that is labeled. It could import the images only, but for the labels to be loaded as well, we need to convert them to the label-studio `json` format.
 
@@ -28,7 +41,7 @@ The converter needs 4 parameters:
 
 - `--output`: The path to the output file, i.e. `/home/user/data/dataset/output.json`. To make life easier, just put it into the dataset root directory.
 
-- `--image-root-url`: Now this is the tricky one: The root URL is now a **relative** path. Don't ask me why, but it needs to be relative to the **parent** of the root URL exported as our **environment variable** (as you will see later). And to make life even harder, it needs to be prefixed with `/data/local-files/?d=`. So in our case, the root URL would be `/data/local-files/?d=dataset/images`. label studio will serve the images from the root URL and the images are located in the `images` folder of the dataset.
+- `--image-root-url`: Now this is the tricky one: The root URL is now a **relative** path. Don't ask me why, but it needs to be relative to the **parent** of the root URL exported as our **environment variable** (as you will see later). And to make life even harder, it needs to be prefixed with `/data/local-files/?d=`. So in our case, the root URL would be `/data/local-files/?d=dataset/images`. Label studio will serve the images from the root URL and the images are located in the `images` folder of the dataset.
 
 - `--image-ext`: The file extension of the images. In our case, that would be `.png`.
 
@@ -59,6 +72,7 @@ export LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true
 export LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/home/user/data
 label-studio
 ```
+Just do a `chmod +x` on the script and you can start label studio with `./label-studio.sh`.
 
 ## 3. Create a new project in label studio
 

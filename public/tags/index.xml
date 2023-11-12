@@ -7,7 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Patrick Weygoldt</copyright>
-    <lastBuildDate>Tue, 07 Nov 2023 12:43:20 +0100</lastBuildDate><atom:link href="https://weygoldt.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 15:34:03 +0100</lastBuildDate><atom:link href="https://weygoldt.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>computer-vision</title>
+      <link>https://weygoldt.com/tags/computer-vision/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/tags/computer-vision/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>datascience</title>
+      <link>https://weygoldt.com/tags/datascience/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/tags/datascience/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>dataset</title>
+      <link>https://weygoldt.com/tags/dataset/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/tags/dataset/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://weygoldt.com/tags/deep-learning/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/tags/deep-learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>label-studio</title>
+      <link>https://weygoldt.com/tags/label-studio/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/tags/label-studio/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>supervised-learning</title>
+      <link>https://weygoldt.com/tags/supervised-learning/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/tags/supervised-learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>yolo</title>
+      <link>https://weygoldt.com/tags/yolo/</link>
+      <pubDate>Fri, 10 Nov 2023 15:34:03 +0100</pubDate>
+      
+      <guid>https://weygoldt.com/tags/yolo/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>2023</title>
       <link>https://weygoldt.com/tags/2023/</link>
@@ -134,16 +204,6 @@
       <pubDate>Mon, 06 Nov 2023 17:02:30 +0100</pubDate>
       
       <guid>https://weygoldt.com/tags/data-visualization/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>https://weygoldt.com/tags/deep-learning/</link>
-      <pubDate>Mon, 06 Nov 2023 17:02:30 +0100</pubDate>
-      
-      <guid>https://weygoldt.com/tags/deep-learning/</guid>
       <description></description>
       
     </item>
