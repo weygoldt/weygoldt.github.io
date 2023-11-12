@@ -8,5 +8,4 @@ description: "A brief introduction to the website"
   loop=false
 >}}
 {{< /typeit >}} -->
-Hi there, I'm Patrick! I am a Masters student in the [Neuroethology group](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/biologie/institute/neurobiologie/lehrbereiche/neuroethology/) at the [University of Tuebingen](https://uni-tuebingen.de/). I am interested in the study of animal behavior and data science. I am also a Linux and open source software enthusiast.
-
+Hi there, I'm Patrick! I am a Masters student in the [Neuroethology group](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/biologie/institute/neurobiologie/lehrbereiche/neuroethology/) at the [University of Tuebingen](https://uni-tuebingen.de/). I am interested in the quantitative study of animal behavior and data science. I am also a Linux and open source software enthusiast. [Click here](/about/) to learn more.
