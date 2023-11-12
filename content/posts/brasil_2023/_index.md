@@ -151,6 +151,6 @@ This field trip would not have been possible without the generous assistance of 
 
 - Our heartfelt thanks go to **Telma**, our cook at the field station. Her delicious meals and unwavering kindness were a tremendous relief, sparing us the task of preparing our own food. We are deeply grateful for her support.
 
-- **Junior** proved to be an exceptional boatsman. Despite language barriers, he patiently ensured our safety. Communicating through gestures, a few words, and Google Translate, we not only enjoyed our time with him but also spent a memorable night under the stars in our hammocks along the Araguari River bank. We hope to have the privilege of working with him again in the future.
+- **Junior** proved to be an exceptional boatsman. Communicating through gestures, a few words, and Google Translate, we not only enjoyed our time with him but also spent a memorable night under the stars in our hammocks along the Araguari River bank. We hope to have the privilege of working with him again in the future.
 
 ![Group picture of the overnighter on the river bank](overnighter.jpg "Group picture of the overnighter on the river bank. From left to right: Me, Jan, and Junior.")

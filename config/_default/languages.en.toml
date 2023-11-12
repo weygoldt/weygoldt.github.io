@@ -23,7 +23,7 @@ dateFormat = "2 January 2006"
   >}}
   Animal Behavior
   Data Science
-  Deep Learning
+  Deep learning
   {{< /typeit >}}"""
   bio = """
     I study Neuroscience and Evolutionary Ecology with an emphasis on animal behavior 
