@@ -21,17 +21,17 @@ dateFormat = "2 January 2006"
   breakLines=false
   loop=true
   >}}
-  Animal Behavior
   Data Science
-  Deep learning
+  Animal Behavior
+  Deep Learning
   {{< /typeit >}}"""
   bio = """
     I study Neuroscience and Evolutionary Ecology with an emphasis on animal behavior 
     and data science. Currently, I am interested electrocommunication and social 
-    interactions in weakly electric fish."""
-#   links = [
-#     { github = "https://github.com/weygoldt" },
-#     { twitter = "https://twitter.com/weygoldtp" },
-#     { instagram = "https://www.instagram.com/weygoldtphoto" },
-#     { email = "mailto:patrick.weygoldt@student.uni-tuebingen.de" }
-#  ]
+    interactions in weakly electric fish, which I analyze using deep neural networks."""
+  links = [
+    { github = "https://github.com/weygoldt" },
+    { twitter = "https://twitter.com/weygoldtp" },
+    { instagram = "https://www.instagram.com/weygoldtphoto" },
+    { email = "mailto:patrick.weygoldt@student.uni-tuebingen.de" }
+ ]
