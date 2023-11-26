@@ -818,9 +818,9 @@
             style="text-decoration-line: none !important;" href="#detecting-communication-signals-of-weakly-electric-fish" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>To understand the meaning of certain communication signals, we need to be able to detect them. With chirps, a transient frequency modulation of the electric organ discharge, this is particularly challenging. In most of the research to date, fish where immobilized and stimulated artifically or kept physically seperated, conditions not particularly advantageous for natural communication.</p>
-<p>To solve this, I developed a detector based on a convolutional neural network that can detect chirps in freely behaving fish. The detector was initially trained on large datasets of simulated chirps, which suprisingly, after some fine-tuning, transferred well to real data.  With this version I was able to detect approximately 50 000 chirps, the largest dataset of chirps at that time.</p>
-<p>The following image shows a short snippet of a recording of two fish. Chirps are visible on a spectrogram as excursions in frequency from the baseline of one of the two fish. The dots indicate where the detector detected a chirp.</p>
+<p>Understanding the significance of specific communication cues necessitates our ability to detect them, particularly with transient frequency modulation signals like chirps produced by an electric organ discharge in fish. Previous research has mainly focused on immobilizing or artificially stimulating fish or physically separating them, conditions unfavorable for natural communication.</p>
+<p>To address this challenge, I designed a convolutional neural network-based detector capable of detecting chirps in freely behaving fish. Despite initially training the model on simulated data, it surprisingly performed well on real-world recordings after some fine-tuning. Using this version, I successfully detected approximately 50,000 chirps, marking the largest dataset at that time.</p>
+<p>The following image illustrates a short segment of a recording featuring two fish. Chirps are visible as frequency fluctuations from the baseline of one of the two fish on a spectrogram. The dots indicate where the detector identified a chirp.</p>
 <p>
 
 
@@ -849,9 +849,8 @@
   
 
 </p>
-<p>Using this detector, we performed first, preliminary analyses of the communication behavior of two fish competing for a shelter, which suggested that chirps might be used by the loosing fish to signal submission.</p>
-<p>I am currently working on using the resulting dataset, manually annotating and correcting it to train a new detector based on a deep neural network that is taylored to detection tasks, that should perform even better on more complex recordings.</p>
-<a id="github-0-1700928873779536610" target="_blank" href="https://github.com/weygoldt/cnn-chirpdetector" class="cursor-pointer">
+<p>Performing preliminary analyses utilizing this detector, we discovered that chirps could potentially be utilized by the losing fish to indicate submission during competition for a shelter among two fish. I am currently working on refining the resulting dataset through manual annotation and correction to train a deep neural network-based detector, specifically designed for detection tasks and optimized to enhance performance on intricate recordings.</p>
+<a id="github-0-1700985884664008229" target="_blank" href="https://github.com/weygoldt/cnn-chirpdetector" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -867,13 +866,13 @@
 
       </span>
       <div
-        id="github-0-1700928873779536610-full_name"
+        id="github-0-1700985884664008229-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         weygoldt/cnn-chirpdetector
       </div>
     </div>
 
-    <p id="github-0-1700928873779536610-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-0-1700985884664008229-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       A first try of detecting the transient communication signals of weakly electric fish on a spectrogram using a convolutional neural network.
     </p>
 
@@ -894,7 +893,7 @@
 
 
       </span>
-      <div id="github-0-1700928873779536610-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-0-1700985884664008229-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -907,7 +906,7 @@
 
 
       </span>
-      <div id="github-0-1700928873779536610-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-0-1700985884664008229-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -922,10 +921,10 @@
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-0-1700928873779536610-full_name').innerHTML = data.full_name;
-        document.getElementById('github-0-1700928873779536610-description').innerHTML = data.description;
-        document.getElementById('github-0-1700928873779536610-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-0-1700928873779536610-forks').innerHTML = data.forks;
+        document.getElementById('github-0-1700985884664008229-full_name').innerHTML = data.full_name;
+        document.getElementById('github-0-1700985884664008229-description').innerHTML = data.description;
+        document.getElementById('github-0-1700985884664008229-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-0-1700985884664008229-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
@@ -939,9 +938,43 @@
             style="text-decoration-line: none !important;" href="#singing-in-the-dark-synchronous-frequency-modulations-of-weakly-electric-fish" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>While looking through a two-week continuous recording of electric fish in their natural habitat, I noticed that some frequency modulations on the scale of seconds up two ten minutes happened in synchrony between two fish. I developed a covariance-based detector that can detect these modulations and used it to analyze the recordings.</p>
-<p>Using estimated positions of the fish over time, I was able to show that fish that participate in these interactions approach each other after they initated their &ldquo;choir&rdquo;. This work resulted in a poster presented at the 2022 international conference of Neuroethology (ICN), that you can find in the github repository below.</p>
-<a id="github-1-1700928873782762037" target="_blank" href="https://github.com/weygoldt/synchronous-modulations" class="cursor-pointer">
+<p>While analyzing a two-week continuous recording of electric fish in their natural habitat, I observed synchronous frequency modulations on a scale of seconds to two ten minutes between two fish. To detect these modulations, I developed a covariance-based detector, which I then used to analyze the recordings. The following plot shows some examples of detected modulations:
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /work/modulations_hu9ed2279291cbd9d00a3919438e44ea4e_181609_330x0_resize_box_3.png 330w,
+        /work/modulations_hu9ed2279291cbd9d00a3919438e44ea4e_181609_660x0_resize_box_3.png 660w,
+        /work/modulations_hu9ed2279291cbd9d00a3919438e44ea4e_181609_1024x0_resize_box_3.png 1024w,
+        /work/modulations_hu9ed2279291cbd9d00a3919438e44ea4e_181609_1320x0_resize_box_3.png 2x"
+        src="/work/modulations_hu9ed2279291cbd9d00a3919438e44ea4e_181609_660x0_resize_box_3.png"
+        alt="modulations"
+      />
+      
+      <figcaption>Synchronous rises of the EODf betweeen two individuals recorded in freely interacting fish in their natural habitat.</figcaption>
+    </figure>
+  
+
+</p>
+<p>By analyzing the estimated positions of fish over time, I demonstrated that those involved in these interactions approach one another following the initiation of their &ldquo;choir.&rdquo; I also created videos depicting some of these diadic interactions, showing the fish moving as data points on an electrode grid and their frequencies changing on the right-hand side.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ihDTMcn7LWM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Synchronous modulations"></iframe>
+</div>
+
+<p>The resulting output from this effort was displayed as a poster at the 2022 International Conference of Neuroethology (ICN). This poster can be accessed through the link provided in the GitHub repository below.</p>
+<a id="github-2-1700985884669397374" target="_blank" href="https://github.com/weygoldt/synchronous-modulations" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -957,13 +990,13 @@
 
       </span>
       <div
-        id="github-1-1700928873782762037-full_name"
+        id="github-2-1700985884669397374-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         weygoldt/synchronous-modulations
       </div>
     </div>
 
-    <p id="github-1-1700928873782762037-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-2-1700985884669397374-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       Working directory including scripts for the analysis of synchronised EOD frequency modulations in freely interacting Brown Ghost Knifefish recorded in Colombia.
     </p>
 
@@ -984,7 +1017,7 @@
 
 
       </span>
-      <div id="github-1-1700928873782762037-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-2-1700985884669397374-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -997,7 +1030,7 @@
 
 
       </span>
-      <div id="github-1-1700928873782762037-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-2-1700985884669397374-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -1012,20 +1045,14 @@
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-1-1700928873782762037-full_name').innerHTML = data.full_name;
-        document.getElementById('github-1-1700928873782762037-description').innerHTML = data.description;
-        document.getElementById('github-1-1700928873782762037-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-1-1700928873782762037-forks').innerHTML = data.forks;
+        document.getElementById('github-2-1700985884669397374-full_name').innerHTML = data.full_name;
+        document.getElementById('github-2-1700985884669397374-description').innerHTML = data.description;
+        document.getElementById('github-2-1700985884669397374-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-2-1700985884669397374-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
 </a>
-<p>Additionally, I rendered some of these diadic interactions as videos, where you can see the fish moving as data points on the electrode grid and their frequencies evolving on the right.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/ihDTMcn7LWM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Synchronous modulations"></iframe>
-</div>
-
 <br/>
 <div id="colorblind-direction-cells-in-the-zebrafish-optic-tectum" class="anchor"></div>
 <h2 class="relative group">Colorblind direction cells in the zebrafish optic tectum 
@@ -1035,10 +1062,67 @@
             style="text-decoration-line: none !important;" href="#colorblind-direction-cells-in-the-zebrafish-optic-tectum" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>Behvioral experiments already showed that zebrafish are likely to not perceive motion if the sole feature that is moving is color. Instead, brightness differences between moving stimuli where needed to elicit a response (Orger and Baier, 2005). For a project during a lab rotation, we investigated how this behavior is reflected in the optic tectum, the main visual processing center in fish.</p>
-<p>To do this, we used two-photon calcium imaging to record the activity of direction selective neurons in the optic tectum of zebrafish larvae. In addition, we simultaneously recorded the optokinetic response, a behavioral proxy of motion perception.</p>
-<p>Our analysis indicated that the direction selective neurons in the optic tectum are most likely colorblind, meaning that they respond to brightness differences but not to color differences. This experiment also resulted in a poster as well as a more detailed report, both of which you can find in the github repository below.</p>
-<a id="github-3-1700928873783474892" target="_blank" href="https://github.com/weygoldt/colorblind-directioncells" class="cursor-pointer">
+<p>Experimental research has shown that zebrafish are less likely to perceive motion when the only moving element is color. Instead, it is the differences in brightness between moving stimuli that trigger a response (Orger and Baier, 2005). As part of a lab rotation project, we investigated how this behavior manifests in the optic tectum, the primary visual processing center in fish.</p>
+<p>To achieve this, we employed two-photon calcium imaging to record the activity of direction selective neurons in the optic tectum of zebrafish larvae. Additionally, we simultaneously measured the optokinetic response, a behavioral indicator of motion perception.</p>
+<p>The ensuing graphs illustrate a comparable pattern between the calcium activities (neural signal) and eye velocities (behavioral output) for the same stimulation conditions.
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /work/caneuro_huf6427505293b0263aef79c877b85513a_211914_330x0_resize_box_3.png 330w,
+        /work/caneuro_huf6427505293b0263aef79c877b85513a_211914_660x0_resize_box_3.png 660w,
+        /work/caneuro_huf6427505293b0263aef79c877b85513a_211914_1024x0_resize_box_3.png 1024w,
+        /work/caneuro_huf6427505293b0263aef79c877b85513a_211914_1320x0_resize_box_3.png 2x"
+        src="/work/caneuro_huf6427505293b0263aef79c877b85513a_211914_660x0_resize_box_3.png"
+        alt="calcium activity"
+      />
+      
+      <figcaption>Calcium acitivty in the Zebrafish optic tectum when stimulated with different levels of chromatic and achromatic contrasts.</figcaption>
+    </figure>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /work/cabehav_hue4306d718083729920f73ddc1f65ea5b_143698_330x0_resize_box_3.png 330w,
+        /work/cabehav_hue4306d718083729920f73ddc1f65ea5b_143698_660x0_resize_box_3.png 660w,
+        /work/cabehav_hue4306d718083729920f73ddc1f65ea5b_143698_1024x0_resize_box_3.png 1024w,
+        /work/cabehav_hue4306d718083729920f73ddc1f65ea5b_143698_1320x0_resize_box_3.png 2x"
+        src="/work/cabehav_hue4306d718083729920f73ddc1f65ea5b_143698_660x0_resize_box_3.png"
+        alt="behavioral output"
+      />
+      
+      <figcaption>Behavioral output measured in the eye velocities during the optokinetic response shows a similar pattern compared to the neural activity.</figcaption>
+    </figure>
+  
+
+</p>
+<p>Our analysis suggested that the direction selective neurons in the optic tectum are likely colorblind, as they primarily respond to variations in brightness rather than color distinctions. As a result of this experiment, we have produced not only a poster but also a more comprehensive report, both of which can be found in the github repository provided below.</p>
+<a id="github-3-1700985884669941135" target="_blank" href="https://github.com/weygoldt/colorblind-directioncells" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -1054,13 +1138,13 @@
 
       </span>
       <div
-        id="github-3-1700928873783474892-full_name"
+        id="github-3-1700985884669941135-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         weygoldt/colorblind-directioncells
       </div>
     </div>
 
-    <p id="github-3-1700928873783474892-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-3-1700985884669941135-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       A lab rotation with the systems neuroscience lab, University of Tuebingen, where we tested whether color contrast contributed to encoding motion in direction selective cells of the zebrafish optic tectum.
     </p>
 
@@ -1081,7 +1165,7 @@
 
 
       </span>
-      <div id="github-3-1700928873783474892-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-3-1700985884669941135-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -1094,7 +1178,7 @@
 
 
       </span>
-      <div id="github-3-1700928873783474892-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-3-1700985884669941135-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -1109,15 +1193,16 @@
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-3-1700928873783474892-full_name').innerHTML = data.full_name;
-        document.getElementById('github-3-1700928873783474892-description').innerHTML = data.description;
-        document.getElementById('github-3-1700928873783474892-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-3-1700928873783474892-forks').innerHTML = data.forks;
+        document.getElementById('github-3-1700985884669941135-full_name').innerHTML = data.full_name;
+        document.getElementById('github-3-1700985884669941135-description').innerHTML = data.description;
+        document.getElementById('github-3-1700985884669941135-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-3-1700985884669941135-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
 </a>
 <br/>
+
     </div>
    
 

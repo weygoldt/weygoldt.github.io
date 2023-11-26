@@ -12,17 +12,15 @@ This is a small collection of university and research projects I particularly en
 
 ## Detecting communication signals of weakly electric fish
 
-To understand the meaning of certain communication signals, we need to be able to detect them. With chirps, a transient frequency modulation of the electric organ discharge, this is particularly challenging. In most of the research to date, fish where immobilized and stimulated artifically or kept physically seperated, conditions not particularly advantageous for natural communication. 
+Understanding the significance of specific communication cues necessitates our ability to detect them, particularly with transient frequency modulation signals like chirps produced by an electric organ discharge in fish. Previous research has mainly focused on immobilizing or artificially stimulating fish or physically separating them, conditions unfavorable for natural communication.
 
-To solve this, I developed a detector based on a convolutional neural network that can detect chirps in freely behaving fish. The detector was initially trained on large datasets of simulated chirps, which suprisingly, after some fine-tuning, transferred well to real data.  With this version I was able to detect approximately 50 000 chirps, the largest dataset of chirps at that time. 
+To address this challenge, I designed a convolutional neural network-based detector capable of detecting chirps in freely behaving fish. Despite initially training the model on simulated data, it surprisingly performed well on real-world recordings after some fine-tuning. Using this version, I successfully detected approximately 50,000 chirps, marking the largest dataset at that time.
 
-The following image shows a short snippet of a recording of two fish. Chirps are visible on a spectrogram as excursions in frequency from the baseline of one of the two fish. The dots indicate where the detector detected a chirp. 
+The following image illustrates a short segment of a recording featuring two fish. Chirps are visible as frequency fluctuations from the baseline of one of the two fish on a spectrogram. The dots indicate where the detector identified a chirp.
 
 ![A spectrogram of a recording of two fish.](chirps.png "A spectrogram of a recording of two fish. The dots indicate where the detector detected a chirp.")
 
-Using this detector, we performed first, preliminary analyses of the communication behavior of two fish competing for a shelter, which suggested that chirps might be used by the loosing fish to signal submission.
-
-I am currently working on using the resulting dataset, manually annotating and correcting it to train a new detector based on a deep neural network that is taylored to detection tasks, that should perform even better on more complex recordings.
+Performing preliminary analyses utilizing this detector, we discovered that chirps could potentially be utilized by the losing fish to indicate submission during competition for a shelter among two fish. I am currently working on refining the resulting dataset through manual annotation and correction to train a deep neural network-based detector, specifically designed for detection tasks and optimized to enhance performance on intricate recordings.
 
 {{< github repo="weygoldt/cnn-chirpdetector" >}}
 
@@ -30,25 +28,30 @@ I am currently working on using the resulting dataset, manually annotating and c
 
 ## Singing in the dark: Synchronous frequency modulations of weakly electric fish
 
-While looking through a two-week continuous recording of electric fish in their natural habitat, I noticed that some frequency modulations on the scale of seconds up two ten minutes happened in synchrony between two fish. I developed a covariance-based detector that can detect these modulations and used it to analyze the recordings. 
+While analyzing a two-week continuous recording of electric fish in their natural habitat, I observed synchronous frequency modulations on a scale of seconds to two ten minutes between two fish. To detect these modulations, I developed a covariance-based detector, which I then used to analyze the recordings. The following plot shows some examples of detected modulations:
+![modulations](modulations.png "Synchronous rises of the EODf betweeen two individuals recorded in freely interacting fish in their natural habitat.")
 
-Using estimated positions of the fish over time, I was able to show that fish that participate in these interactions approach each other after they initated their "choir". This work resulted in a poster presented at the 2022 international conference of Neuroethology (ICN), that you can find in the github repository below. 
-
-{{< github repo="weygoldt/synchronous-modulations" >}}
-
-Additionally, I rendered some of these diadic interactions as videos, where you can see the fish moving as data points on the electrode grid and their frequencies evolving on the right.
+By analyzing the estimated positions of fish over time, I demonstrated that those involved in these interactions approach one another following the initiation of their "choir." I also created videos depicting some of these diadic interactions, showing the fish moving as data points on an electrode grid and their frequencies changing on the right-hand side.
 
 {{< youtube id="ihDTMcn7LWM" title="Synchronous modulations" >}}
+
+The resulting output from this effort was displayed as a poster at the 2022 International Conference of Neuroethology (ICN). This poster can be accessed through the link provided in the GitHub repository below.
+
+{{< github repo="weygoldt/synchronous-modulations" >}}
 
 <br/>
 
 ## Colorblind direction cells in the zebrafish optic tectum
 
-Behvioral experiments already showed that zebrafish are likely to not perceive motion if the sole feature that is moving is color. Instead, brightness differences between moving stimuli where needed to elicit a response (Orger and Baier, 2005). For a project during a lab rotation, we investigated how this behavior is reflected in the optic tectum, the main visual processing center in fish. 
+Experimental research has shown that zebrafish are less likely to perceive motion when the only moving element is color. Instead, it is the differences in brightness between moving stimuli that trigger a response (Orger and Baier, 2005). As part of a lab rotation project, we investigated how this behavior manifests in the optic tectum, the primary visual processing center in fish.
 
-To do this, we used two-photon calcium imaging to record the activity of direction selective neurons in the optic tectum of zebrafish larvae. In addition, we simultaneously recorded the optokinetic response, a behavioral proxy of motion perception. 
+To achieve this, we employed two-photon calcium imaging to record the activity of direction selective neurons in the optic tectum of zebrafish larvae. Additionally, we simultaneously measured the optokinetic response, a behavioral indicator of motion perception. 
 
-Our analysis indicated that the direction selective neurons in the optic tectum are most likely colorblind, meaning that they respond to brightness differences but not to color differences. This experiment also resulted in a poster as well as a more detailed report, both of which you can find in the github repository below.
+The ensuing graphs illustrate a comparable pattern between the calcium activities (neural signal) and eye velocities (behavioral output) for the same stimulation conditions.
+![calcium activity](caneuro.png "Calcium acitivty in the Zebrafish optic tectum when stimulated with different levels of chromatic and achromatic contrasts.")
+![behavioral output](cabehav.png "Behavioral output measured in the eye velocities during the optokinetic response shows a similar pattern compared to the neural activity.")
+
+Our analysis suggested that the direction selective neurons in the optic tectum are likely colorblind, as they primarily respond to variations in brightness rather than color distinctions. As a result of this experiment, we have produced not only a poster but also a more comprehensive report, both of which can be found in the github repository provided below.
 
 {{< github repo="weygoldt/colorblind-directioncells" >}}
 
