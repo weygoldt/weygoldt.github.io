@@ -749,15 +749,6 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li>
-          <ul>
-            <li></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
     <li><a href="#why-python">Why Python?</a></li>
     <li><a href="#terminal-and-shell">Terminal and shell</a></li>
     <li><a href="#text-editor">Text editor</a></li>
@@ -768,6 +759,7 @@
       </ul>
     </li>
     <li><a href="#data-science-libraries">Data science libraries</a></li>
+    <li><a href="#machine-learning-tools">Machine learning tools</a></li>
     <li><a href="#documenting-and-sharing">Documenting and sharing</a></li>
     <li><a href="#reporting">Reporting</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
@@ -784,15 +776,6 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li>
-          <ul>
-            <li></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
     <li><a href="#why-python">Why Python?</a></li>
     <li><a href="#terminal-and-shell">Terminal and shell</a></li>
     <li><a href="#text-editor">Text editor</a></li>
@@ -803,6 +786,7 @@
       </ul>
     </li>
     <li><a href="#data-science-libraries">Data science libraries</a></li>
+    <li><a href="#machine-learning-tools">Machine learning tools</a></li>
     <li><a href="#documenting-and-sharing">Documenting and sharing</a></li>
     <li><a href="#reporting">Reporting</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
@@ -857,14 +841,7 @@
     </div>
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      <div id="the-python-ecosystem-is-huge-and-it-is-growing-every-day-it-is-hard-to-keep-up-with-all-the-new-libraries-and-tools-in-this-post-i-will-share-my-tech-stack-for-data-science-in-2023-i-will-update-this-post-every-year-to-document-my-plunge-into-this-never-ending-rabbit-hole" class="anchor"></div>
-<h6 class="relative group">The Python ecosystem is huge and it is growing every day. It is hard to keep up with all the new libraries and tools. In this post I will share my tech stack for data science in 2023. I will update this post every year to document my plunge into this never ending rabbit hole. 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#the-python-ecosystem-is-huge-and-it-is-growing-every-day-it-is-hard-to-keep-up-with-all-the-new-libraries-and-tools-in-this-post-i-will-share-my-tech-stack-for-data-science-in-2023-i-will-update-this-post-every-year-to-document-my-plunge-into-this-never-ending-rabbit-hole" aria-label="Anchor">#</a></span>        
-    
-</h6>
+      <p>The Python ecosystem is huge and it is growing every day. It is hard to keep up with all the new libraries and tools. In this post I will share my tech stack for data science in 2023. I will update this post every year to document my plunge into this never ending rabbit hole.</p>
 <p>Disclaimer: Everything below is my opinion. If I get something wrong, please let me know. I don&rsquo;t use all of these tools in every project and I don&rsquo;t list all tools that I use here. I am merely providing a list of tools that I particularly enjoy using and that I think are worth checking out as I am writing this post.</p>
 <div id="why-python" class="anchor"></div>
 <h2 class="relative group">Why Python? 
@@ -996,6 +973,10 @@
 <ul>
 <li><a href="https://github.com/psf/black"   target="_blank">
     Black</a> - Black is the uncompromising Python code formatter. It is a great tool for keeping code clean and consistent.</li>
+<li><a href="https://github.com/isort"   target="_blank">
+    isort</a> - A tool to sort package imports consistently.</li>
+<li><a href="https://github.com/ruff"   target="_blank">
+    ruff</a> - The fastest python formatter that also sorts imports, this is my current go-to tool.</li>
 <li><a href="https://www.pylint.org/"   target="_blank">
     Pylint</a> - Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard.</li>
 <li><a href="https://docs.pytest.org/"   target="_blank">
@@ -1029,14 +1010,6 @@
     Scipy</a> - SciPy is a Python-based ecosystem of open-source software for mathematics, science, and engineering. It is a great library for scientific computing and includes algorithms for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and many more.</p>
 </li>
 <li>
-<p><a href="https://scikit-learn.org/"   target="_blank">
-    Scikit-learn</a> - Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN. It is a great library for machine learning.</p>
-</li>
-<li>
-<p><a href="https://pytorch.org/"   target="_blank">
-    Pytorch</a> - PyTorch is an open source library for deep learning and GPU accelerated computing. It is pain-free to install compared to TensorFlow and has a great API.</p>
-</li>
-<li>
 <p><a href="https://matplotlib.org/"   target="_blank">
     Matplotlib</a> - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is a great library for data visualization. It provides fine grained control over every aspect of a figure and is highly customizable.</p>
 </li>
@@ -1048,6 +1021,39 @@
 <p><a href="https://github.com/Textualize/rich"   target="_blank">
     Rich</a> - Rich is a Python library for rich text and beautiful formatting in the terminal. It is a much nicer way to display logs, data and progress bars compared to e.g. <code>tqdm</code>. It is also the progress bar that <code>pip</code> uses when you install something.</p>
 </li>
+</ul>
+<div id="machine-learning-tools" class="anchor"></div>
+<h2 class="relative group">Machine learning tools 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#machine-learning-tools" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<ul>
+<li>
+<p><a href="https://scikit-learn.org/"   target="_blank">
+    Scikit-learn</a> - Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN. It is a great library for machine learning.</p>
+</li>
+<li>
+<p><a href="https://pytorch.org/"   target="_blank">
+    Pytorch</a> - PyTorch is an open source library for deep learning and GPU accelerated computing. It is pain-free to install compared to TensorFlow and has a great API.</p>
+</li>
+<li>
+<p><a href="https://github.com/tensorflow"   target="_blank">
+    Tensorflow</a> - Another deep learning framework that comes with Keras, a high level API that makes the usage of pretrained models as well as the creation of coustom models very fast.</p>
+</li>
+</ul>
+<p>The following set of packages are training frameworks, that mostly build on top of pytorch to abstract a lot of the boiler plate code and make model training and evalutation easier.</p>
+<ul>
+<li><a href="https://www.fast.ai/"   target="_blank">
+    FastAI</a> - The library is a bit dated but the website provides amazing courses on deep learning.</li>
+<li><a href="https://keras.io"   target="_blank">
+    Keras</a> - A high level API that works with Tensorflow, Pytorch and JAX.</li>
+<li><a href="https://lightning.ai/"   target="_blank">
+    Pytorch Lightning</a> - This is framework to make pytorch models as easy as fitting sklearn models.</li>
+<li><a href="https://www.supergradients.com/"   target="_blank">
+    SuperGradients</a> - The new kid on the block by DECI-AI. Home of the current state of the art object detection model YOLO-NAS.</li>
 </ul>
 <p>If a project gets bigger and other people start using it, the following tools are great for documentation:</p>
 <div id="documenting-and-sharing" class="anchor"></div>
@@ -1130,7 +1136,7 @@ documentation from type annotations and docstrings. It is also much faster than 
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       &copy;
-      2023
+      2024
       Patrick Weygoldt
     </p>
     

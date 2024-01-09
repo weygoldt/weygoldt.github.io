@@ -8,7 +8,7 @@ date: 2023-11-06T17:02:30+01:00
 draft: false
 ---
 
-###### The Python ecosystem is huge and it is growing every day. It is hard to keep up with all the new libraries and tools. In this post I will share my tech stack for data science in 2023. I will update this post every year to document my plunge into this never ending rabbit hole. 
+The Python ecosystem is huge and it is growing every day. It is hard to keep up with all the new libraries and tools. In this post I will share my tech stack for data science in 2023. I will update this post every year to document my plunge into this never ending rabbit hole. 
 
 Disclaimer: Everything below is my opinion. If I get something wrong, please let me know. I don't use all of these tools in every project and I don't list all tools that I use here. I am merely providing a list of tools that I particularly enjoy using and that I think are worth checking out as I am writing this post.
 
@@ -65,6 +65,8 @@ Now that we set up a git repository, we can install a pre-commit hook, that runs
 ### Keeping the code clean
 
 - [Black](https://github.com/psf/black) - Black is the uncompromising Python code formatter. It is a great tool for keeping code clean and consistent.
+- [isort](https://github.com/isort) - A tool to sort package imports consistently.
+- [ruff](https://github.com/ruff) - The fastest python formatter that also sorts imports, this is my current go-to tool.
 - [Pylint](https://www.pylint.org/) - Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard.
 - [Pytest](https://docs.pytest.org/) - The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 
@@ -82,15 +84,26 @@ Now that we have set up a project, we can start writing code. The following libr
 
 - [Scipy](https://www.scipy.org/) - SciPy is a Python-based ecosystem of open-source software for mathematics, science, and engineering. It is a great library for scientific computing and includes algorithms for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and many more.
 
-- [Scikit-learn](https://scikit-learn.org/) - Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN. It is a great library for machine learning.
-
-- [Pytorch](https://pytorch.org/) - PyTorch is an open source library for deep learning and GPU accelerated computing. It is pain-free to install compared to TensorFlow and has a great API.
-
 - [Matplotlib](https://matplotlib.org/) - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is a great library for data visualization. It provides fine grained control over every aspect of a figure and is highly customizable.
 
 - [Pydantic](https://pydantic-docs.helpmanual.io/) - Pydantic is a library for data validation and settings management based on Python type hints. It is a great library for validating data and settings. I use it to create data models for my data science projects.
 
 - [Rich](https://github.com/Textualize/rich) - Rich is a Python library for rich text and beautiful formatting in the terminal. It is a much nicer way to display logs, data and progress bars compared to e.g. `tqdm`. It is also the progress bar that `pip` uses when you install something.
+
+## Machine learning tools
+
+- [Scikit-learn](https://scikit-learn.org/) - Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN. It is a great library for machine learning.
+
+- [Pytorch](https://pytorch.org/) - PyTorch is an open source library for deep learning and GPU accelerated computing. It is pain-free to install compared to TensorFlow and has a great API.
+
+- [Tensorflow](https://github.com/tensorflow) - Another deep learning framework that comes with Keras, a high level API that makes the usage of pretrained models as well as the creation of coustom models very fast.
+
+The following set of packages are training frameworks, that mostly build on top of pytorch to abstract a lot of the boiler plate code and make model training and evalutation easier.
+
+- [FastAI](https://www.fast.ai/) - The library is a bit dated but the website provides amazing courses on deep learning.
+- [Keras](https://keras.io) - A high level API that works with Tensorflow, Pytorch and JAX.
+- [Pytorch Lightning](https://lightning.ai/) - This is framework to make pytorch models as easy as fitting sklearn models.
+- [SuperGradients](https://www.supergradients.com/) - The new kid on the block by DECI-AI. Home of the current state of the art object detection model YOLO-NAS.
 
 If a project gets bigger and other people start using it, the following tools are great for documentation:
 
