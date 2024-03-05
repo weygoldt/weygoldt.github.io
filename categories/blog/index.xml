@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Patrick Weygoldt</title>
+    <link>http://localhost:1313/categories/blog/</link>
+    <description>Recent content in Blog on Patrick Weygoldt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Patrick Weygoldt</copyright>
+    <lastBuildDate>Tue, 02 Jan 2024 10:44:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decoding the Symphony of Weakly Electric Fish: A Journey into Automated Chirp Detection and Deep Learning</title>
+      <link>http://localhost:1313/posts/chirp_detector_lessons/</link>
+      <pubDate>Tue, 02 Jan 2024 10:44:24 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/chirp_detector_lessons/</guid>
+      <description>Title: &amp;ldquo;Decoding the Symphony of Weakly Electric Fish: A Journey into Automated Chirp Detection and Deep Learning&amp;rdquo;
+In the past year, my journey in neuroethology has taken an exciting turn as I delved into the intricate world of the communication of weakly electric fish.</description>
+      
+    </item>
+    
+    <item>
+      <title>Extracting non-stationary frequency components with forward and backward Fourier transformation</title>
+      <link>http://localhost:1313/posts/frequency_extraction/</link>
+      <pubDate>Sun, 12 Mar 2023 14:29:15 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/frequency_extraction/</guid>
+      <description>One of the most flexible tools to de-noise signals based on spectral components</description>
+      
+    </item>
+    
+  </channel>
+</rss>
