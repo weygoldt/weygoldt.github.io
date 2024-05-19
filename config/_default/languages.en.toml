@@ -1,0 +1,78 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Patrick Weygoldt"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[author]
+  name = "Patrick Weygoldt"
+  image = "img/portrait.jpg"
+  headline = """{{< typeit 
+  tag=h3
+  speed=50
+  breakLines=false
+  loop=true
+  >}}
+  Data Science
+  Machine Learning
+  Deep Learning
+  {{< /typeit >}}"""
+  bio = """Masters student using deep learning to understand what electric fish chat about."""
+  links = [
+    { github = "https://github.com/weygoldt" },
+    { email = "mailto:patrick.weygoldt@student.uni-tuebingen.de" },
+    { medium = "https://medium.com/@weygoldt" },
+    { linkedin = "https://linkedin.com/in/weygoldt" },
+    { instagram = "https://www.instagram.com/weygoldtphoto" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { blogger = "https://username.blogspot.com/" },
+    # { bluesky = "https://bsky.app/profile/username" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { hashnode = "https://username.hashnode.dev" },
+    # { instagram = "https://instagram.com/username" },
+    # { itch-io = "https://username.itch.io" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { orcid = "https://orcid.org/userid" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { researchgate = "https://www.researchgate.net/profile/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { threads = "https://www.threads.net/@username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    # { x-twitter = "https://twitter.com/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+    # { ko-fi = "https://ko-fi.com/username" },
+  ]
