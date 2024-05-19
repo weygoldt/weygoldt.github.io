@@ -18,7 +18,7 @@ Here you see some data visualizations exclusively rendered in Matplotlib without
 additional edits from graphical editors.
 
 {{< gallery >}}
-<img src="gallery/assignment_feature_extraction.png" class="grid-w100 md:grid-w100 xl:grid-w50" />
+<img src="gallery/plot_assignment_feature_extraction.png" class="grid-w100 md:grid-w100 xl:grid-w50" />
 <img src="gallery/chirp_detections_simultaneous.png" class="grid-w100 md:grid-w100 xl:grid-w50" />
 <img src="gallery/competition_trial_overview.png" class="grid-w100 md:grid-w50 xl:grid-w50" />
 
