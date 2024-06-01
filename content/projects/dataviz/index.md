@@ -14,8 +14,8 @@ draft: false
 
 ## Standalone plots
 
-Here you see some data visualizations exclusively rendered in Matplotlib without
-additional edits from graphical editors.
+Here you see some of my data visualizations exclusively rendered in `matplotlib` without
+additional edits from graphical editors. Most of them are from my Masters Thesis.
 
 {{< gallery >}}
 <img src="gallery/plot_assignment_feature_extraction.png" class="grid-w100 md:grid-w100 xl:grid-w50" />
