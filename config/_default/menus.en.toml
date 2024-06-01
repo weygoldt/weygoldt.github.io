@@ -93,7 +93,7 @@
 [[main]]
   identifier = "reddit"
   pre = "reddit"
-  url = "https://reddit.com/weygoldt"
+  url = "https://reddit.com/user/weygoldt"
   weight = 62
 
 [[main]]
