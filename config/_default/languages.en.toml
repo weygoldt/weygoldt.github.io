@@ -22,11 +22,11 @@ title = "Patrick Weygoldt"
   breakLines=false
   loop=true
   >}}
+  Animal Behavior
   Data Science
   Machine Learning
-  Deep Learning
   {{< /typeit >}}"""
-  bio = """Masters student using deep learning to understand what electric fish chat about."""
+  bio = """PhD student exploring the behavior of electric fish in the wild using data analysis and machine learning."""
   links = [
     { github = "https://github.com/weygoldt" },
     { email = "mailto:patrick.weygoldt@student.uni-tuebingen.de" },
