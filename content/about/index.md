@@ -44,7 +44,7 @@ reproducibility and the advancement of science. This is why I am a big fan of
 anything scriptable: Code is the best way to document, share and reproduce data
 analysis workflows. You can find anything including analysis code, poster
 and presentation templates and my Linux system configuration on my
-[GitHub](github.com/weygoldt) page.
+[GitHub](https://github.com/weygoldt) page.
 
 <!---
 With knowledge in applied machine learning, software development, and data
