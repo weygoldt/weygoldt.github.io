@@ -1,7 +1,7 @@
 ---
 title: "Pretty pictures with angular random walks"
 summary: "Let's see how basic random walks can be extended a bit to create interesting visuals."
-# showSummary: true
+showSummary: true
 categories: ["Post"]
 tags: ["simulation", "python", "randomwalk", "creativecoding", "datavis"]
 date: 2024-05-19

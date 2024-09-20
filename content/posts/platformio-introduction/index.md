@@ -1,7 +1,7 @@
 ---
 title: "PlatformIO: Hardware dev from the command line"
 summary: "An introduction to PlatformIO, a tool that makes software development for microcontrollers easier."
-# showSummary: true
+showSummary: true
 categories: ["Post"]
 tags: ["arduino", "hardware", "linux"]
 date: 2023-05-01T14:51:09+02:00

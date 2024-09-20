@@ -1,7 +1,7 @@
 ---
 title: "How to write coding articles in plain Python files"
-summary: "How to convert inline a Python file with some inline block comments to a beautiful markdown document"
-# showSummary: true
+summary: "How to convert a Python file with some inline block comments to a beautiful markdown document"
+showSummary: true
 categories: ["Post"]
 tags: ["python", "markdown", "writing", "automation", "reproducibility"]
 date: 2024-05-18

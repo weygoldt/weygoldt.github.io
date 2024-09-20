@@ -1,7 +1,7 @@
 ---
 title: "Exploring Electric Fish in the Rainforest of Brazil"
 summary: "A small report on a field trip to the Amazonian Rainforest in Amapa, Brazil in 2023"
-# showSummary: true
+showSummary: true
 categories: ["Post"]
 tags:
   [

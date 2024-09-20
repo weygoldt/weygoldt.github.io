@@ -1,6 +1,6 @@
 ---
 title: "My data science tools in 2023"
-summary: "A collection of libaries and tools that I use to analyze data with Python"
+summary: "A collection of libaries and tools that I use to analyze data with Python in 2023."
 categories: ["Post"]
 tags:
   [
@@ -14,7 +14,7 @@ tags:
     "data science stack",
   ]
 date: 2023-11-06T17:02:30+01:00
-# showSummary: true
+showSummary: true
 draft: false
 ---
 

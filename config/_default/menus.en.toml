@@ -52,20 +52,36 @@
 #  pageRef = "tags"
 #  weight = 30
 
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
+
+# [[footer]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20
+
 [[main]]
-  name = "About"
+  name = "About me"
   pageRef = "about"
   weight = 10
 
 [[main]]
-  name = "Projects"
+  name = "Research"
   pageRef = "projects"
   weight = 25
 
 [[main]]
-  name = "Personal"
-  pageRef = "personal"
-  weight = 45
+  name = "Software"
+  pageRef = "software"
+  weight = 30
 
 [[main]]
   name = "Blog"
@@ -91,41 +107,8 @@
   weight = 61
 
 [[main]]
-  identifier = "reddit"
-  pre = "reddit"
-  url = "https://reddit.com/user/weygoldt"
-  weight = 62
-
-[[main]]
   identifier = "linkedin"
   pre = "linkedin"
   url = "https://www.linkedin.com/in/weygoldt/"
   weight = 65
 
-[[main]]
-  identifier = "medium"
-  pre = "medium"
-  url = "https://medium.com/@weygoldt"
-  weight = 70 
-
-[[main]]
-  identifier = "instagram"
-  pre = "instagram"
-  url = "https://www.instagram.com/weygoldtphoto/"
-  weight = 75
-
-
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
-
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
-
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20

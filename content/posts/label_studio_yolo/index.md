@@ -1,7 +1,7 @@
 ---
 title: "Labeling images with Label Studio"
-summary: ""
-#showSummary: true
+summary: "A guide on how to set up Label Studio to correct pre-annotated images of a YOLO dataset locally."
+showSummary: true
 categories: ["Post"]
 tags:
   [
