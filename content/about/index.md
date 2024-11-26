@@ -47,14 +47,6 @@ creating visualizations, some of which you can find on here:
 
 {{< article link="/posts/dataviz/" >}}
 
-On a personal note, I am a big proponent of open software and hardware, open
-data, and open science. I believe that sharing knowledge, tools and data is
-essential for reproducibility and the advancement of science. This is why I am
-a big fan of anything scriptable: Code is the best way to document, share and
-reproduce data analysis workflows. You can find anything including analysis
-code, poster and presentation templates and my Linux system configuration on my
-[GitHub](https://github.com/weygoldt) page.
-
 ## Fieldwork
 
 Aside from data analysis, I really enjoy the outdoors. I am a certified
@@ -72,3 +64,22 @@ especially love to do some work in caves at some point in the future.
 A report on my latest trip to the Amazon rainforest can be found here:
 
 {{< article link="/posts/brasil_2023/" >}}
+
+## Open science and inclusivity
+
+As a PhD student, I’m passionate about quantitative, reproducible, and open
+science. I believe in sharing knowledge through open-access publications,
+openly available code, and open hardware designs, making research more
+collaborative and accessible. You can find anything including analysis code,
+poster and presentation templates and my Linux system configuration on my
+[GitHub](https://github.com/weygoldt) page. I also value fostering a welcoming
+and respectful environment where everyone feels included and supported. I
+strive to approach my work and collaborations with empathy and an openness to
+diverse perspectives to encourage meaningful contributions from everyone
+involved.
+
+## Get in touch
+
+I am always open to new collaborations and opportunities. If you are interested
+in my work or have any questions, feel free to reach out to me via
+[email](mailto:patrick.weygoldt@uni-tuebingen.de).
