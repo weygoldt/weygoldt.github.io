@@ -100,11 +100,11 @@
   url = "mailto:patrick.weygoldt@student.uni-tuebingen.de"
   weight = 60
 
-[[main]]
-  identifier = "x-twitter"
-  pre = "x-twitter"
-  url = "https://x.com/weygoldtp"
-  weight = 61
+# [[main]]
+#   identifier = "x-twitter"
+#   pre = "x-twitter"
+#   url = "https://x.com/weygoldtp"
+#   weight = 61
 
 [[main]]
   identifier = "linkedin"
